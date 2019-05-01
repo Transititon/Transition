@@ -3,6 +3,8 @@ int main()
 {
 int a = 5;
 int b = 6;
-int c = a+b;
-Printf("Value is"+c)
+int c = b;
+b = a ;
+a = c ;
+Printf("Swap"+a);
 }
